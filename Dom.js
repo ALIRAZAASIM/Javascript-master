@@ -7,5 +7,5 @@ console.log(ele2.innerHTML);
 ele.innerText = "aliraza";
 ele.textContent = "again change it";
 
-let anc = document.querySelector("a");
-anc.setAttribute("href", "https://www.google.com/");
+let ancher = document.querySelector("a");
+ancher.setAttribute("href", "https://www.google.com/");
