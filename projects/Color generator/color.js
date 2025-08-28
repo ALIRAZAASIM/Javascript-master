@@ -1,4 +1,4 @@
-// making a avariable and acceess the element / class/id
+// making a avariable and acceess the data from element / class/id
 
 let redbtn = document.querySelector(".red");
 let greenbtn = document.querySelector(".green");
