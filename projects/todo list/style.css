@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+}
+.card {
+  width: 600px;
+  margin: auto;
+  margin-top: 70px;
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 16px -8px black;
+}
+.card h1 {
+  font-size: 35px;
+  text-transform: capitalize;
+  padding: 10px 0px;
+}
+.card p {
+  text-align: left;
+  padding: 10px 0px;
+  padding-left: 10px;
+}
+.iput {
+  display: flex;
+  justify-content: center;
+}
+.input input {
+  width: 500px;
+  padding: 7px 10px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #caf0f8;
+}
+.input button {
+  padding: 7px 10px;
+  border: none;
+  background-color: rgb(152, 202, 218);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.task h3 {
+  font-family: bold;
+}
+.task {
+  align-items: center;
+  margin-top: 20px;
+}
+.task ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  padding-top: 20px;
+}
+.task ul li {
+  background-color: #caf0f8;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.task ul li button {
+  padding: 2px 2px;
+  margin-top: 8px;
+  margin-right: 8px;
+  background-color: transparent;
+  border: none;
+}
+.clear {
+  margin-top: 20px;
+}
+.clear button {
+  padding: 5px 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid cadetblue;
+}
