@@ -43,6 +43,10 @@
   background-color: rgb(152, 202, 218);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+.input button:hover {
+  background-color: #24afca;
 }
 .task h3 {
   font-family: bold;
@@ -70,6 +74,7 @@
   margin-right: 8px;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 .clear {
   margin-top: 20px;
@@ -79,4 +84,8 @@
   background-color: white;
   border-radius: 10px;
   border: 2px solid cadetblue;
+  cursor: pointer;
+}
+.clear button:hover {
+  background-color: #24afca;
 }
